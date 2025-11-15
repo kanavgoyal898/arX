@@ -2,5 +2,21 @@
 
 .screen {
   @apply min-h-screen;
-  @apply grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4;
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
+}
+
+.screen {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .screen {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .screen {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
 }
