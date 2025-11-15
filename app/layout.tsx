@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="screen">
-          <div className="bg-red-300">
+          <div className="bg-red-300 hidden md:block">
             <h1>Column 1</h1>
           </div>
           <div className="bg-blue-300">
@@ -35,7 +35,7 @@ export default function RootLayout({
           <div className="bg-green-300">
             <h1>Column 3</h1>
           </div>
-          <div className="bg-yellow-300">
+          <div className="bg-yellow-300 hidden lg:block">
             <h1>Column 4</h1>
           </div>
         </div>
