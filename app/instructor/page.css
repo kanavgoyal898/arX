@@ -1,0 +1,67 @@
+@reference "../globals.css";
+
+.instructor-container {
+    @apply gap-4;
+    @apply flex flex-col;
+}
+
+.instructor-profile {
+    @apply gap-6;
+    @apply flex flex-col md:flex-row;
+}
+
+.instructor-image {
+    @apply relative;
+    @apply aspect-square;   
+    @apply h-1/2 md:w-1/2;
+    @apply overflow-hidden;
+}
+
+.instructor-details {
+    @apply gap-4;
+    @apply flex flex-col;
+    @apply h-1/2 md:w-1/2;
+}
+
+.instructor-name {
+    @apply text-4xl;
+    @apply font-bold;
+}
+
+.instructor-name-title {
+    @apply flex flex-col;
+}
+
+.instructor-title {
+    @apply text-2xl;
+}
+
+.instructor-contact {
+    @apply flex flex-col;
+}
+
+.instructor-email {
+    @apply text-2xl;
+}
+
+.instructor-socials {
+    @apply gap-2;
+    @apply flex flex-row;
+}
+
+.instructor-social {
+    @apply text-2xl;
+    @apply text-black;
+}
+
+.instructor-address {
+    @apply text-base;
+}
+
+.instructor-phone {
+    @apply text-base;
+}
+
+.instructor-description {
+    @apply text-2xl;
+}

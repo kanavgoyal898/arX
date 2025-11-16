@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+      </head>
       <body className={`${inter.variable} antialiased`}>
         <div className="screen">
           <div className="ps-6 pe-6 py-9 bg-red-300 h-screen sticky top-0 hidden md:block">
