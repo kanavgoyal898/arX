@@ -1,0 +1,44 @@
+@reference "../globals.css";
+
+.credentials-container {
+    @apply w-full;
+    @apply h-screen;
+    @apply flex flex-col;
+    @apply justify-center items-center;
+}
+
+.form-container {
+    @apply gap-4;
+    @apply w-2/3;
+    @apply h-screen;
+    @apply flex flex-col;
+    @apply justify-center items-end;
+}
+
+.input-container {
+    @apply w-full;
+    @apply flex flex-col;
+}
+
+.input-field {
+    @apply px-2;
+    @apply text-xl; 
+    @apply focus:outline-none;
+    @apply border-b-2 border-black;
+}
+
+.password-link-container {
+    @apply w-full;
+    @apply flex flex-row;
+}
+
+.password-link {
+    @apply text-sm;
+    @apply underline;
+}
+
+.submit-container {
+    @apply w-full;
+    @apply flex flex-row;
+    @apply justify-center;
+}

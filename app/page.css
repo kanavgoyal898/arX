@@ -1,0 +1,28 @@
+@reference "./globals.css";
+
+.home-container {
+    @apply gap-12;
+    @apply h-screen;
+    @apply flex flex-col;
+    @apply justify-center items-center;
+}
+
+.logo-container {
+    @apply flex flex-col;
+    @apply justify-center items-center;
+}
+
+.title-1 {
+    @apply font-bold;
+    @apply text-9xl;
+}
+
+.title-2 {
+    @apply font-normal;
+    @apply text-7xl;
+}
+
+.actions-container {
+    @apply gap-6;
+    @apply flex flex-row;
+}
