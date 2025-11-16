@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+:root {
+  --colorA: #DEDAF3;
+  --colorB: #FFD7A6;
+  --colorC: #D9D9D9;
+}
+
 .screen {
   @apply min-h-screen;
   @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;

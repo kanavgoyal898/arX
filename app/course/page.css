@@ -42,7 +42,7 @@
     @apply gap-1;
     @apply px-3 py-3;
     @apply flex flex-col;
-    @apply bg-white;
+    @apply bg-[var(--colorB)];
 }
 
 .course-material-title {
@@ -78,7 +78,7 @@
     @apply gap-1;
     @apply px-3 py-3;
     @apply flex flex-col;
-    @apply bg-white;
+    @apply bg-[var(--colorC)];
 }
 
 .course-assignment-header {
