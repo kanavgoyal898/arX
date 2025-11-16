@@ -3,12 +3,12 @@ import "./page.css";
 import Image from "next/image";
 
 const instructor = {
-    name: "David J. Malan",
-    title: "Gordon McKay Professor of the Practice of Computer Science",
-    email: "malan@harvard.edu",
-    address: "Harvard University,  Science and Engineering Complex, 150 Western Avenue, Allston, Massachusetts 02134 USA",
+    name: "Lorem Ipsum",
+    title: "Lorem Ipsum, Dolor Sit Amet",
+    email: "lorem@ipsum.com",
+    address: "Lorem Ipsum, Dolor Sit Amet, Consectetur Adipiscing Elit, 12345",
     phone: "+xx xx xxx xx xxx",
-    profile_picture: "https://cs.harvard.edu/malan/malan.jpg",
+    profile_picture: "https://media.istockphoto.com/id/1388253782/photo/positive-successful-millennial-business-professional-man-head-shot-portrait.jpg?s=612x612&w=0&k=20&c=uS4knmZ88zNA_OjNaE_JCRuq9qn3ycgtHKDKdJSnGdY=",
     socials: [
         {
             title: "Facebook",
@@ -39,7 +39,7 @@ export default function Instructor() {
         <div className="instructor-container">
             <div className="instructor-profile">
                 <div className="instructor-image">
-                    <Image src="https://cs.harvard.edu/malan/malan.jpg" alt="Instructor Profile Picture" fill className="object-cover"/>
+                    <Image src={ instructor.profile_picture } alt="Instructor Profile Picture" fill className="object-cover"/>
                 </div>
                 <div className="instructor-details">
                     <div className="instructor-name-title">

@@ -3,9 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 const institute = {
-  name: "Harvard University",
-  location: "Cambridge, Massachusetts",
-  link: "https://www.harvard.edu/",
+  name: "Lorem Ipsum",
+  location: "Dotor Sit Amet",
+  link: "https://youtu.be/dQw4w9WgXcQ?si=4qYlaF6DgDnNDxGE",
 }
 
 const inter = Inter({

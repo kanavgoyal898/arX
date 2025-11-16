@@ -1,10 +1,10 @@
 import "./page.css";
 
 const course = {
-    title: "CS50 Introduction to Computer Science",
-    school: "Harvard School of Engineering and Applied Sciences",
+    title: "Lorem Ipsum, Dolor Sit Amet",
+    school: "Lorem Ipsum, Dotor Sit Amet",
     instructor: {
-        name: "David J. Malan",
+        name: "Lorem Ipsum",
         profile_link: "/instructor"
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
