@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} antialiased`}>
         <div className="screen">
-          <div className="ps-6 pe-6 py-9 bg-red-300 hidden md:block">
+          <div className="ps-6 pe-6 py-9 bg-red-300 h-screen sticky top-0 hidden md:block">
             <p className="text-4xl">
               <b>
                 Harvard University
@@ -33,7 +33,7 @@ export default function RootLayout({
           <div className="ps-6 pe-6 py-9 bg-blue-300">
             <h1>{children}</h1>
           </div>
-          <div className="ps-6 pe-6 py-9 bg-yellow-300 hidden lg:block">
+          <div className="ps-6 pe-6 py-9 bg-yellow-300 h-screen sticky top-0 hidden lg:block">
           </div>
         </div>
       </body>
