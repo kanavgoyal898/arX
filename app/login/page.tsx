@@ -1,9 +1,11 @@
+"use client";
+
 import "./page.css";
 
 export default function Login() {
     return (
         <div className="credentials-container">
-            <form action="/course" className="form-container">
+            <form method="POST" action="/course" className="form-container">
                 <div className="input-container">
                     <input type="email" className="input-field" placeholder="Email" />
                 </div>
