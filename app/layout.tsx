@@ -30,7 +30,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} antialiased`}>
         <div className="screen">
-          <div className="ps-6 pe-6 py-9 bg-[var(--colorA)] h-screen sticky top-0 hidden md:block">
+          <div className="ps-6 pe-6 pt-9 mb-9 bg-[var(--colorA)] h-screen sticky top-0 hidden md:block">
             <p className="text-4xl">
               <b>
                 <a href={ institute.link } className="no-underline hover:no-underline" target="_blank">
@@ -41,10 +41,10 @@ export default function RootLayout({
               { institute.location }
             </p>
           </div>
-          <div className="ps-6 pe-6 py-9 bg-white">
+          <div className="ps-6 pe-6 pt-9 mb-9 bg-white">
             <h1>{children}</h1>
           </div>
-          <div className="ps-6 pe-6 py-9 bg-white h-screen sticky top-0 hidden lg:block">
+          <div className="ps-6 pe-6 pt-9 mb-9 bg-white h-screen sticky top-0 hidden lg:block">
           </div>
         </div>
       </body>
