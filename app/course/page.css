@@ -1,0 +1,107 @@
+@reference "../globals.css";
+
+.course-container {
+    @apply gap-4;
+    @apply flex flex-col;
+}
+
+.course-title {
+    @apply text-4xl;
+    @apply font-bold;
+}
+
+.course-school {
+    @apply text-2xl;
+}
+
+.course-instructor {
+    @apply text-xl;
+    @apply font-bold;
+}
+
+.course-description {
+    @apply text-xl;
+}
+
+.course-headers {
+    @apply text-2xl;
+    @apply font-bold;
+}
+
+.course-materials {
+    @apply gap-4;
+    @apply flex flex-col;
+}
+
+.course-material {
+    @apply gap-2;
+    @apply flex flex-col;
+}
+
+.course-material-container {
+    @apply gap-1;
+    @apply px-3 py-3;
+    @apply flex flex-col;
+    @apply bg-white;
+}
+
+.course-material-title {
+    @apply text-base;
+    @apply font-bold;
+}
+
+.course-material-description {
+    @apply text-base;
+}
+
+.course-material-resources {
+    @apply gap-4;
+    @apply flex flex-row;
+}
+
+.course-material-resource {
+    @apply text-base;
+    @apply underline;
+}
+
+.course-assignments {
+    @apply gap-4;
+    @apply flex flex-col;
+}
+
+.course-assignment {
+    @apply gap-2;
+    @apply flex flex-col;
+}
+
+.course-assignment-container {
+    @apply gap-1;
+    @apply px-3 py-3;
+    @apply flex flex-col;
+    @apply bg-white;
+}
+
+.course-assignment-header {
+    @apply flex flex-row;
+    @apply justify-between;
+}
+
+.course-assignment-title {
+    @apply text-base;
+    @apply font-bold;
+}
+
+.course-assignment-dates {
+    @apply text-base;
+    @apply font-bold;
+}
+
+.course-assignment-description {
+    @apply text-base;
+}
+
+.course-assignment-actions {
+    @apply gap-2;
+    @apply justify-end;
+    @apply flex flex-row;
+}

@@ -20,3 +20,20 @@
     grid-template-columns: 1fr 2fr 1fr;
   }
 }
+
+a {
+  @apply underline;
+  @apply text-inherit;
+}
+
+.button-filled {
+  @apply px-4 py-2;
+  @apply bg-black;
+  @apply text-white;
+}
+
+.button-outlined {
+  @apply px-4 py-2;
+  @apply text-black;
+  @apply border-2 border-black;
+}
