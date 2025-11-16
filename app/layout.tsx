@@ -2,6 +2,12 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+const institute = {
+  name: "Harvard University",
+  location: "Cambridge, Massachusetts",
+  link: "https://www.harvard.edu/",
+}
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -27,10 +33,12 @@ export default function RootLayout({
           <div className="ps-6 pe-6 py-9 bg-[var(--colorA)] h-screen sticky top-0 hidden md:block">
             <p className="text-4xl">
               <b>
-                Harvard University
+                <a href={ institute.link } className="no-underline hover:no-underline" target="_blank">
+                  { institute.name }
+                </a>
               </b>
               <br/> 
-              Cambridge, Massachusetts
+              { institute.location }
             </p>
           </div>
           <div className="ps-6 pe-6 py-9 bg-white">
